@@ -60,10 +60,10 @@
 
         adjust {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp LG(LA(LC(LEFT)))  &kp LG(LC(UP))    &kp LA(LC(LG(RIGHT)))  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LG(LEFT))      &kp LG(LC(DOWN))  &kp LC(LG(RIGHT))      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                &trans            &trans                 &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                                &trans                 &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
