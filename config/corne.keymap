@@ -36,10 +36,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)       &kp LS(N6)   &kp LG(LEFT)  &kp UP_ARROW   &kp LG(RIGHT)  &kp MINUS     &kp PLUS
-&trans         &kp LG(A)   &kp LG(S)   &trans      &kp LG(F)   &trans           &trans       &kp LEFT      &kp DOWN       &kp RIGHT      &kp COLON     &kp DOUBLE_QUOTES
-&trans         &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)   &trans           &trans       &trans        &kp LESS_THAN  &kp GT         &kp QUESTION  &trans
-                                       &mo 6       &trans      &kp LG(SPACE)    &kp LG(RET)  &trans        &trans
+&kp LS(GRAVE)  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)            &kp LS(N4)  &kp LS(N5)       &kp LS(N6)   &kp LG(LEFT)  &kp UP_ARROW   &kp LG(RIGHT)  &kp MINUS     &kp PLUS
+&trans         &kp LG(A)   &kp LG(S)   &kp LG(LS(NUMBER_4))  &kp LG(F)   &trans           &trans       &kp LEFT      &kp DOWN       &kp RIGHT      &kp COLON     &kp DOUBLE_QUOTES
+&trans         &kp LG(Z)   &kp LG(X)   &kp LG(C)             &kp LG(V)   &trans           &trans       &trans        &kp LESS_THAN  &kp GT         &kp QUESTION  &trans
+                                       &mo 6                 &trans      &kp LG(SPACE)    &kp LG(RET)  &trans        &trans
             >;
         };
 
