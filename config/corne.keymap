@@ -82,7 +82,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "BB";
             #binding-cells = <0>;
-            bindings = <&kp B>, <&kp AT_SIGN>;
+            bindings = <&kp B>, <&kp B>, <&kp AT_SIGN>;
         };
     };
 
