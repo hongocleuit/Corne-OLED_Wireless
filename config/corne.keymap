@@ -130,7 +130,7 @@
         adjust {
             bindings = <
 &none  &kp LG(LA(LC(LEFT)))  &kp LG(LC(UP))    &kp LA(LC(LG(RIGHT)))  &none              &to 0            &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none            &none
-&none  &kp LC(LG(LEFT))      &kp LG(LC(DOWN))  &kp LC(LG(RIGHT))      &none              &to 6            &none  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none            &none
+&none  &kp LC(LG(LEFT))      &kp LG(LC(DOWN))  &kp LC(LG(RIGHT))      &none              &to 0            &none  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none            &none
 &none  &none                 &none             &none                  &kp LG(LS(LA(V)))  &none            &none  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &none
                                                &none                  &none              &kp LC(LG(Q))    &none  &none            &none
             >;
@@ -151,15 +151,6 @@
 &trans           &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR    &trans  &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR_ALL   &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &trans  &trans  &trans  &trans  &trans  &trans
                                                    &trans           &trans           &trans             &trans  &trans  &trans
-            >;
-        };
-
-        Win {
-            bindings = <
-&kp ESC    &kp Q        &kp W           &kp E           &kp R               &kp T        &kp Y  &kp U               &kp I           &kp O           &kp P                &function_layers 4 BACKSPACE
-&kp TAB    &mt LCTRL A  &mt LEFT_GUI S  &mt LEFT_ALT D  &hmls LEFT_SHIFT F  &kp G        &kp H  &hmrs LEFT_SHIFT J  &mt LEFT_ALT K  &mt LEFT_GUI L  &mt RCTRL SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z        &kp X           &kp C           &kp V               &kp B        &kp N  &kp M               &kp COMMA       &kp DOT         &kp FSLH             &kp LC(LA(LS(SPACE)))
-                                        &kp LGUI        &mo 1               &kp SPACE    &sl 4  &mo 2               &kp LCTRL
             >;
         };
     };
