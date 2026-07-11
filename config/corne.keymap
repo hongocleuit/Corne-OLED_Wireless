@@ -79,6 +79,40 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <25 26>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <26 27>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <27 28>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <26 28>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+        };
+
+        esc1 {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
