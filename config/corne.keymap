@@ -161,7 +161,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION            &kp SEMICOLON  &kp AMPS              &kp ASTRK         &kp LPAR           &kp RPAR               &kp BSPC
+&kp GRAVE  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION            &kp SEMICOLON  &kp DEL               &kp LS(TAB)       &kp INS            &kp ESCAPE             &kp BSPC
 &trans     &kp CARET       &kp EQUAL  &kp UNDERSCORE     &kp DOLLAR        &kp ASTERISK            &kp PERIOD     &kp BACKSPACE         &kp TAB           &kp SPACE          &kp ENTER              &kp PRINTSCREEN
 &trans     &kp LT          &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp NON_US_BACKSLASH    &kp SLASH      &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans
                                       &trans             &trans            &kp SPACE               &kp RET        &trans                &trans
