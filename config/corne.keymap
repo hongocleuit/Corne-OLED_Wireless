@@ -188,7 +188,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp LG(Q)  &kp AT_SIGN  &kp HASH              &kp LG(R)  &kp LG(T)        &kp LCTRL    &kp LG(LEFT)  &kp UP_ARROW   &kp LG(RIGHT)  &kp MINUS     &kp PLUS
+&kp GRAVE  &kp LG(Q)  &kp AT_SIGN  &kp HASH              &kp LG(R)  &kp LG(T)        &kp LCTRL    &kp LG(LEFT)  &kp UP_ARROW   &kp LG(RIGHT)  &kp MINUS     &kp PLUS
 &trans     &kp LG(A)  &kp LG(S)    &kp LG(LS(NUMBER_4))  &kp LG(F)  &kp AMPERSAND    &trans       &kp LEFT      &kp DOWN       &kp RIGHT      &kp COLON     &kp DOUBLE_QUOTES
 &trans     &kp LG(Z)  &kp LG(X)    &kp LG(C)             &kp LG(V)  &kp ASTERISK     &kp LG(N)    &trans        &kp LESS_THAN  &kp GT         &kp QUESTION  &trans
                                    &mo 5                 &trans     &kp LG(SPACE)    &kp LG(RET)  &trans        &trans
