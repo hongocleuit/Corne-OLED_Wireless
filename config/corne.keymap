@@ -93,6 +93,8 @@
                 <&kp BACKSPACE>,
                 <&kp BACKSPACE>,
                 <&b_remove_previous_word>;
+
+            tapping-term-ms = <150>;
         };
 
         layers_tap: layers_tap {
