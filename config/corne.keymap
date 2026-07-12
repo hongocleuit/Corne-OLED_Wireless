@@ -68,7 +68,7 @@
         function_layers: function_layers {
             compatible = "zmk,behavior-hold-tap";
             label = "FUNCTION_LAYERS";
-            bindings = <&mo>, <&kp>;
+            bindings = <&mo>, <&remove_previous_word>;
 
             #binding-cells = <2>;
             flavor = "balanced";
@@ -83,6 +83,16 @@
             label = "BB";
             #binding-cells = <0>;
             bindings = <&kp B>, <&kp B>, <&kp AT_SIGN>;
+        };
+
+        b_remove_previous_word: b_remove_previous_word {
+            compatible = "zmk,behavior-tap-dance";
+            label = "B_REMOVE_PREVIOUS_WORD";
+            #binding-cells = <0>;
+            bindings =
+                <&kp BACKSPACE>,
+                <&kp BACKSPACE>,
+                <&b_remove_previous_word>;
         };
     };
 
@@ -117,6 +127,24 @@
         esc1 {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
+        };
+    };
+
+    macros {
+        remove_previous_word: remove_previous_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp LEFT_ARROW>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT &kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp BACKSPACE>;
+
+            label = "REMOVE_PREVIOUS_WORD";
         };
     };
 
@@ -161,10 +189,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION            &kp SEMICOLON  &kp DEL               &kp LS(TAB)       &kp INS            &kp ESCAPE             &kp BSPC
-&trans     &kp CARET       &kp EQUAL  &kp UNDERSCORE     &kp DOLLAR        &kp ASTERISK            &kp PERIOD     &kp BACKSPACE         &kp TAB           &kp SPACE          &kp ENTER              &kp PRINTSCREEN
-&trans     &kp LT          &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp NON_US_BACKSLASH    &kp SLASH      &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans
-                                      &trans             &trans            &kp SPACE               &kp RET        &trans                &trans
+&kp GRAVE  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION            &kp SEMICOLON  &kp DEL                &kp LS(TAB)       &kp INS            &kp ESCAPE             &kp BSPC
+&trans     &kp CARET       &kp EQUAL  &kp UNDERSCORE     &kp DOLLAR        &kp ASTERISK            &kp PERIOD     &remove_previous_word  &kp TAB           &kp SPACE          &kp ENTER              &kp PRINTSCREEN
+&trans     &kp LT          &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp NON_US_BACKSLASH    &kp SLASH      &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans
+                                      &trans             &trans            &kp SPACE               &kp RET        &trans                 &trans
             >;
         };
 
