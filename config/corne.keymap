@@ -182,10 +182,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp LG(Q)  &kp AT_SIGN  &kp HASH              &kp LG(R)  &kp LG(T)        &kp LCTRL    &kp LG(LEFT)  &kp UP_ARROW   &kp LG(RIGHT)  &kp MINUS     &kp PLUS
-&trans     &kp LG(A)  &kp LG(S)    &kp LG(LS(NUMBER_4))  &kp LG(F)  &kp AMPERSAND    &trans       &kp LEFT      &kp DOWN       &kp RIGHT      &kp COLON     &kp DOUBLE_QUOTES
-&trans     &kp LG(Z)  &kp LG(X)    &kp LG(C)             &kp LG(V)  &kp ASTERISK     &kp LG(N)    &trans        &kp LESS_THAN  &kp GT         &kp QUESTION  &trans
-                                   &mo 5                 &trans     &kp LG(SPACE)    &kp LG(RET)  &trans        &trans
+&kp GRAVE  &kp LG(Q)  &kp LEFT_PARENTHESIS  &kp HASH              &kp LG(R)  &kp LG(T)        &kp LCTRL    &kp LG(LEFT)  &kp UP_ARROW   &kp LG(RIGHT)  &kp MINUS     &kp PLUS
+&trans     &kp LG(A)  &kp LG(S)             &kp LG(LS(NUMBER_4))  &kp LG(F)  &kp AMPERSAND    &trans       &kp LEFT      &kp DOWN       &kp RIGHT      &kp COLON     &kp DOUBLE_QUOTES
+&trans     &kp LG(Z)  &kp LG(X)             &kp LG(C)             &kp LG(V)  &kp ASTERISK     &kp LG(N)    &trans        &kp LESS_THAN  &kp GT         &kp QUESTION  &trans
+                                            &mo 5                 &trans     &kp LG(SPACE)    &kp LG(RET)  &trans        &trans
             >;
         };
 
@@ -197,10 +197,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION            &kp SEMICOLON  &kp DEL                &kp LS(TAB)       &kp INS            &kp ESCAPE             &remove_previous_word
-&trans     &kp CARET       &kp EQUAL  &kp UNDERSCORE     &kp DOLLAR        &kp ASTERISK            &kp PERIOD     &remove_previous_word  &kp TAB           &kp SPACE          &kp ENTER              &kp PRINTSCREEN
-&trans     &kp LT          &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp NON_US_BACKSLASH    &kp SLASH      &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans
-                                      &trans             &trans            &kp SPACE               &kp RET        &trans                 &trans
+&kp GRAVE  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION            &kp SEMICOLON  &kp DEL               &kp LS(TAB)       &kp INS            &kp ESCAPE             &remove_previous_word
+&trans     &kp CARET       &kp EQUAL  &kp UNDERSCORE     &kp DOLLAR        &kp ASTERISK            &kp PERIOD     &kp BACKSPACE         &kp TAB           &kp SPACE          &kp ENTER              &kp PRINTSCREEN
+&trans     &kp LT          &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp NON_US_BACKSLASH    &kp SLASH      &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &trans
+                                      &trans             &trans            &kp SPACE               &kp RET        &trans                &trans
             >;
         };
 
