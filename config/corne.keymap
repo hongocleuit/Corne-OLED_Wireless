@@ -17,7 +17,7 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <200>;
         };
@@ -41,7 +41,7 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <200>;
         };
