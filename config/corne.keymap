@@ -167,10 +167,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB     &kp Q         &kp W            &kp E            &kp R               &kp T                  &kp Y  &kp U               &kp I              &kp O            &kp P                 &function_layers 4 BACKSPACE
-&kp ESCAPE  &hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hmls LEFT_SHIFT F  &kp G                  &kp H  &hmrs LEFT_SHIFT J  &hmr LEFT_GUI K    &hmr LEFT_ALT L  &hmr RCTRL SEMICOLON  &kp SQT
-&kp LSHFT   &kp Z         &kp X            &kp C            &kp V               &kp B                  &kp N  &kp M               &kp COMMA          &kp DOT          &kp FSLH              &kp LC(LA(LS(SPACE)))
-                                           &kp LMETA        &mo 1               &layers_tap 6 SPACE    &sl 4  &mo 2               &kp LA(LG(LCTRL))
+&kp TAB     &kp Q         &kp W            &kp E            &kp R               &kp T                  &kp Y  &kp U               &kp I                           &kp O            &kp P                 &function_layers 4 BACKSPACE
+&kp ESCAPE  &hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hmls LEFT_SHIFT F  &kp G                  &kp H  &hmrs LEFT_SHIFT J  &hmr LEFT_GUI K                 &hmr LEFT_ALT L  &hmr RCTRL SEMICOLON  &kp SQT
+&kp LSHFT   &kp Z         &kp X            &kp C            &kp V               &kp B                  &kp N  &kp M               &kp COMMA                       &kp DOT          &kp FSLH              &kp LC(LA(LS(SPACE)))
+                                           &kp LMETA        &mo 1               &layers_tap 6 SPACE    &sl 4  &mo 2               &layers_tap 5 LA(LC(LEFT_GUI))
             >;
         };
 
@@ -185,7 +185,7 @@
 &kp GRAVE  &kp LG(Q)  &kp LEFT_PARENTHESIS  &kp LG(LS(NUMBER_4))  &kp LG(R)  &kp LG(T)        &kp LCTRL    &kp LG(LEFT)  &kp UP_ARROW   &kp LG(RIGHT)  &kp MINUS     &kp PLUS
 &trans     &kp LG(A)  &kp LG(S)             &trans                &kp LG(F)  &kp AMPERSAND    &trans       &kp LEFT      &kp DOWN       &kp RIGHT      &kp COLON     &kp DOUBLE_QUOTES
 &trans     &kp LG(Z)  &kp LG(X)             &kp LG(C)             &kp LG(V)  &kp ASTERISK     &kp LG(N)    &trans        &kp LESS_THAN  &kp GT         &kp QUESTION  &trans
-                                            &mo 5                 &trans     &kp LG(SPACE)    &kp LG(RET)  &trans        &trans
+                                            &trans                &trans     &kp LG(SPACE)    &kp LG(RET)  &trans        &trans
             >;
         };
 
@@ -237,6 +237,15 @@
 &trans     &kp N1           &kp N2        &kp N3        &kp N4            &kp N5            &kp N6           &kp N7             &kp N8        &kp N9                &kp N0                 &trans
 &trans     &kp LCTRL        &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp LEFT_GUI  &kp LEFT_ALT          &kp LCTRL              &trans
                                           &trans        &trans            &trans            &trans           &trans             &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
