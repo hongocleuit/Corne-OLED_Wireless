@@ -181,3 +181,9 @@ combos:
   k: Gui+V
 - p: [26, 28]
   k: Gui+X
+- p: [8, 9]
+  k: BACKSPACE
+- p: [21, 22]
+  k: ENTER
+- p: [19, 20]
+  k: ESCAPE
