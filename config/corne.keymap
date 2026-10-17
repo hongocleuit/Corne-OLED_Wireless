@@ -126,16 +126,6 @@
             bindings = <&kp LG(X)>;
             key-positions = <26 28>;
         };
-
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <19 20>;
-        };
-
-        esc1 {
-            bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
-        };
     };
 
     macros {
