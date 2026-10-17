@@ -1,3 +1,4 @@
-Nhấn qua phần Actions, để tải firmware nạp .urf2
+# Default keymap
+![Default Keymap](./keymap-drawer/sofle.svg)
 
 https://nickcoutsos.github.io/keymap-editor/
