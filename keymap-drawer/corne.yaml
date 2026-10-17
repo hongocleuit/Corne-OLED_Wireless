@@ -181,7 +181,3 @@ combos:
   k: Gui+V
 - p: [26, 28]
   k: Gui+X
-- p: [19, 20]
-  k: ESCAPE
-- p: [1, 2]
-  k: ESCAPE
