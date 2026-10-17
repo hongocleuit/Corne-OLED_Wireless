@@ -126,6 +126,21 @@
             bindings = <&kp LG(X)>;
             key-positions = <26 28>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <21 22>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
