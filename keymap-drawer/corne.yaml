@@ -1,0 +1,187 @@
+layout: {zmk_keyboard: corne}
+layers:
+  '0':
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - ''
+  - A
+  - S
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT GUI}
+  - G
+  - H
+  - {t: J, h: LEFT GUI}
+  - {t: K, h: LEFT ALT}
+  - L
+  - ;
+  - ''
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''
+  - LMETA
+  - SPACE
+  - LEFT SHIFT
+  - LCTRL
+  - {t: '1', h: toggle}
+  - LEFT ALT
+  '1':
+  - ''
+  - ESCAPE
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - '!'
+  - BACKSPACE
+  - ''
+  - ''
+  - TAB
+  - ''''
+  - '='
+  - _
+  - '"'
+  - \
+  - '{'
+  - '}'
+  - /
+  - ENTER
+  - ''
+  - ''
+  - '~'
+  - <
+  - '|'
+  - '-'
+  - '>'
+  - '['
+  - (
+  - )
+  - ']'
+  - {t: '2', h: toggle}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: '0', h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '3', h: toggle}
+  - {t: ▽, type: trans}
+  '2':
+  - ''
+  - {t: ESCAPE, h: Alt+Gui+ESCAPE}
+  - Gui+Ctl+Alt+LEFT ARROW
+  - Ctl+Gui+UP ARROW
+  - Ctl+Alt+Gui+RIGHT
+  - Gui+Sft+4
+  - Gui+[
+  - Ctl+Sft+TAB
+  - Ctl+TAB
+  - Gui+]
+  - BACKSPACE
+  - ''
+  - ''
+  - {t: TAB, h: Gui+TAB}
+  - Gui+Ctl+LEFT ARROW
+  - Ctl+Gui+DOWN
+  - Ctl+Gui+RIGHT
+  - DEL
+  - {t: LEFT ARROW, h: Gui+LEFT}
+  - DOWN
+  - UP
+  - {t: RIGHT, h: Gui+RIGHT}
+  - ENTER
+  - ''
+  - ''
+  - {t: '`', h: Gui+`}
+  - ''
+  - ''
+  - Gui+Sft+Alt+V
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: '0', h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '1', h: toggle}
+  - {t: ▽, type: trans}
+  '3':
+  - ''
+  - ESCAPE
+  - PLAY
+  - PREVIOUS
+  - NEXT
+  - _
+  - '-'
+  - '7'
+  - '8'
+  - '9'
+  - BSPC
+  - ''
+  - ''
+  - TAB
+  - ''
+  - ''
+  - ''
+  - +
+  - '='
+  - '4'
+  - '5'
+  - '6'
+  - ENTER
+  - ''
+  - ''
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - .
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - {t: '2', h: toggle}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: '0', h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '1', h: toggle}
+  - {t: ▽, type: trans}
+combos:
+- p: [25, 26]
+  k: Gui+Z
+- p: [26, 27]
+  k: Gui+C
+- p: [27, 28]
+  k: Gui+V
+- p: [26, 28]
+  k: Gui+X
+- p: [19, 20]
+  k: ESCAPE
+- p: [1, 2]
+  k: ESCAPE
